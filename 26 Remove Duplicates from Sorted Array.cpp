@@ -14,9 +14,9 @@ int main()
   {
       if(arr[i]!=arr[k])
       {
-          arr[k+1] = arr[i];
-          k++;
-
+           k++;
+          arr[k] = arr[i];
+        
       }
 
   }
