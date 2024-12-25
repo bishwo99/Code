@@ -12,9 +12,15 @@ int main()
         if(digits[i] > 9) 
         {
             digits[i]++;
-            cout<<digits[i] << " ";
         }
+        else 
+            digits[i] = 0;
     }
+    digits.push_back(0);
+    digits[0] = 1;
+
+   for(int i = 0; i < digits.size(); i++) cout << digits[i] <<" ";
+    
 
 
 
